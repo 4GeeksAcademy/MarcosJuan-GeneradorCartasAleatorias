@@ -1,1 +1,32 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.body {
+    text-align: center;
+    font-size: 200px;
+    margin-top: 100px;
+    color: black;
+}
+
+.top-left {
+    font-size: 100px;
+    margin-left: 20px;
+}
+
+.bottom-right {
+    font-size: 100px;
+    margin-top: 150px;
+    margin-right: 30px;
+    transform: rotate(180deg);
+}
