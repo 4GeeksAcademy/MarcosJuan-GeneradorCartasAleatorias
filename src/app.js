@@ -21,4 +21,8 @@ window.onload = function() {
     }
   }
   createCard();
+
+  document
+    .getElementById("new-card-button")
+    .addEventListener("click", createCard);
 };
